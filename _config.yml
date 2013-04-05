@@ -5,8 +5,6 @@ url: "http://erikroyall.github.com"
 
 paginate: 10
 
-comments: true
-
 markdown: rdiscount
 permalink: pretty
 pygments: true
