@@ -10,11 +10,11 @@
     <meta name="description" content="{{ site.description }}">
     <title>{{ site.name }}</title>
 
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/foundation.min.css" />
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/normalize.css" />
+    <link rel="stylesheet" href="{{ site.url }}/css/foundation.min.css" />
+    <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
 
-    <script src="../js/vendor/custom.modernizr.js"></script>
+    <script src="{{ site.url }}/js/vendor/custom.modernizr.js"></script>
 
 </head>
 
@@ -23,7 +23,7 @@
   <ul class="title-area">
     <!-- Title Area -->
     <li class="name">
-      <h1><a href="#">{{ site.title }}</a></h1>
+      <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
     </li>
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -32,14 +32,14 @@
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="blog.html">Blog</a></li>
+      <li><a href="{{ site.url }}/index.html">Home</a></li>
+      <li><a href="{{ site.url }}/about.html">About Me</a></li>
+      <li><a href="{{ site.url }}/blog.html">Blog</a></li>
     </ul>
 
     <!-- Right Nav Section -->
     <ul class="right">
-      <li><a href="demos.html">Demos</a></li>
+      <li><a href="{{ site.url }}/demos.html">Demos</a></li>
     </ul>
   </section>
 </nav>
