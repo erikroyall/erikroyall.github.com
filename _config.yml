@@ -1,0 +1,10 @@
+name: "Erik Royall"
+description: ""
+
+url: "http://erikroyall.github.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
