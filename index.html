@@ -5,7 +5,8 @@ layout: default
 
 <div class="row">
     <div class="large-8 columns">
-        {% for post in site.posts limit: 10 %}
+        <h2>From the blog:</h2>
+        {% for post in site.posts limit: 5 %}
             <div class="row">
                 <h3>{{ post.title }}</h3>
                 <h5>{{ post.date | date_to_long_string }}</h5>
