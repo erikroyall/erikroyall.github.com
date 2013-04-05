@@ -1,7 +1,9 @@
-<aside class="panel">
+<div class="large-4 columns">
+  <aside class="panel">
   <ul class="side.nav">
         {% for post in site.posts limit: 5 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </aside>
+</div>
