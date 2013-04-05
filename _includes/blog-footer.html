@@ -18,7 +18,6 @@
     </script>
         
         <!-- Disqus -->
-{ % if page.comments % }
         <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'erikroyall';
@@ -29,6 +28,8 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{ % if page.comments % }
+        
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     <script type="text/javascript">
     var disqus_shortname = 'erikroyall'; 
