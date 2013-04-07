@@ -1,0 +1,22 @@
+---
+title: Erik Royall
+layout: default
+---
+
+<div class="row">
+    
+    <div class="large-8 columns">
+        <h2>From the blog:</h2>
+        {% for post in site.posts limit: 5 %}
+                <h3>{{ post.title }}</h3>
+                <h5>{{ post.date | date_to_long_string }}</h5>
+                <p>
+                  {{ post.excerpt }}
+                  <br><a href="{{ post.url }}">Read Post</a>
+                </p>
+        {% endfor %}
+    </div>
+</div>
+{% for post in site.posts limit: 10 %}
+
+{% endfor %}
