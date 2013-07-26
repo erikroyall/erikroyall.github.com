@@ -1,0 +1,171 @@
+:focus { outline: none; }
+
+html, body, ul li, div, section, aside, a, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Links reset */
+
+a {
+    border-bottom-style: dotted;
+    color: #777;
+    font-weight: bold;
+}
+
+a:hover, a:focus { color: #444; }
+a:visited, a:active { color: #222; }
+
+/*######## Global Typography Configurations #######*/
+
+p {
+    font: 16px "Droid Serif", serif;
+}
+
+/*######## Header ########*/
+
+header.main {
+    font: 20px "Open Sans", Arial, Helvetica, sans-serif;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #027b7f;
+}
+
+header.main .h-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main .nav {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header.main nav ul li {
+    position: relative;
+    list-style-type: none;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 30px;
+}
+
+header.main nav ul {
+    width: 300px;
+    line-height: 40px;
+}
+
+.h-left, .h-right, .h-img {
+    float: left;
+}
+
+.h-left, .h-right {
+    margin: 0 65px;
+}
+
+header.main nav ul li a { 
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    border: 0;
+    transition: color 0.5s ease;
+}
+
+header.main nav ul li a:hover, header.main nav ul li a:focus {
+    color: #ccc;
+}
+
+.h-img {
+    min-height: 100px;
+    min-width: 100px;
+    z-index: 1000;
+}
+
+.logo-img {
+    background-image: url(../img/logo-800.png);
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*####### Body Wrapper #######*/
+
+
+body .wrap {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+/*####### Blog Posts #######*/
+
+.blog-excerpts {
+    float: left;
+    width: 65%;
+}
+
+.post-block-title {
+    font: 35px "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.extras div {
+    display: inline;
+}
+
+.post-author {
+    font-style: italic;
+}
+
+.post-author::before {
+    content: 'By '
+}
+
+.datetime::before {
+    content: ' on '
+}
+
+/*####### Sidebar #######*/
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+/*####### Footer #######*/
+
+footer {
+    padding-top: 30px;
+    margin: 30px;
+    clear: both;
+    border-top: 1px solid #777;
+}
+
+@media screen and (max-width: 959px) {
+    aside, header, footer, body .wrap, header .wrap, .blog-excerpts, article {
+        width: 100%;
+    }
+    
+    header.main {
+        background-color: transparent;
+    }
+    
+    .h-wrap ul li {
+        width: 100%;
+        display: block;
+        color: #888;
+    }
+    
+    .blog-excerpts {
+        
+    }
+}
