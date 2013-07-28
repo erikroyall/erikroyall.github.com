@@ -1,0 +1,1176 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getElements",
+				"getElementsByTagName"
+			],
+			[
+				"it",
+				"its	BDD it synchronous"
+			],
+			[
+				"des",
+				"desc	BDD Describe"
+			],
+			[
+				"c",
+				"comment	comment"
+			],
+			[
+				"fsre",
+				"fs.readFileSync(path, encoding);"
+			],
+			[
+				"com",
+				"comment	comment"
+			],
+			[
+				"box",
+				"box	CSS - box-sizing: border-box;"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"vali",
+				"vertical-align"
+			],
+			[
+				"wit",
+				"wait"
+			],
+			[
+				"support",
+				"supportsHTML5"
+			],
+			[
+				"sec",
+				"sec	sec"
+			],
+			[
+				"d",
+				"direction"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"nav",
+				"nav-section"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"trans",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"na",
+				"nav-section"
+			],
+			[
+				"comm",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"css",
+				"csstransform	csstransform"
+			],
+			[
+				"script",
+				"script IE html5	script-ie"
+			],
+			[
+				"tet",
+				"text-transform"
+			],
+			[
+				"pr",
+				"transparent"
+			],
+			[
+				"que",
+				"querysSelectorAll"
+			],
+			[
+				"select",
+				"selectNonNative"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"backgr",
+				"backgroundColor"
+			],
+			[
+				"h",
+				"hilo"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"token",
+				"tokenCache"
+			],
+			[
+				"attr",
+				"attrCache"
+			],
+			[
+				"drag",
+				"dragenter"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"xhr",
+				"xhrObj"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"quo",
+				"quotient"
+			],
+			[
+				"divi",
+				"divisor"
+			],
+			[
+				"strin",
+				"stringCost"
+			],
+			[
+				"brow",
+				"browserLength"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"getEleme",
+				"getElementsByClassName"
+			],
+			[
+				"getElement",
+				"getElementById"
+			],
+			[
+				"atr",
+				"attrs"
+			],
+			[
+				"_",
+				"_l"
+			],
+			[
+				"inne",
+				"innerText"
+			],
+			[
+				"ap",
+				"appear"
+			],
+			[
+				"dis",
+				"disappear"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"el",
+				"el"
+			],
+			[
+				"take",
+				"taken"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"each",
+				"each"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ht",
+				"htmlCode"
+			],
+			[
+				"htm",
+				"html	html"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			],
+			[
+				"js",
+				"js-implode	js-implode"
+			],
+			[
+				"medi",
+				"media smartphone	smartphone"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"j",
+				"js-explode	js-explode"
+			],
+			[
+				"new",
+				"isNew"
+			],
+			[
+				"aut",
+				"author"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"res",
+				"resetcss	resetcss"
+			],
+			[
+				"wt",
+				"watch"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"doctype",
+				"doctype XHTML 1.0 Transitional DTD	doctype XHTML 1.0 Transitional DTD"
+			],
+			[
+				"docty",
+				"doctype XHTML 1.0 Frameset DTD	doctype XHTML 1.0 Frameset DTD"
+			],
+			[
+				"doct",
+				"doctype XHTML 1.0 Strict DTD	doctype XHTML 1.0 Strict DTD"
+			],
+			[
+				"hell",
+				"hello	hello"
+			],
+			[
+				"set",
+				"setcookie"
+			],
+			[
+				"b",
+				"bd	Backbone requirejs Module definition"
+			],
+			[
+				"bone",
+				"boost-new	bootstrap-new"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"outline-",
+				"outline-style"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"cap",
+				"capitalize"
+			],
+			[
+				"counter",
+				"counter-increment"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"getElementBy",
+				"getElementsByClassName"
+			],
+			[
+				"req",
+				"setRequestheader"
+			],
+			[
+				"ajax",
+				"ajax0	jQuery AJAX call"
+			],
+			[
+				"time",
+				"timeTakenTo"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"getEem",
+				"getElementsByTagName"
+			],
+			[
+				"getEeme",
+				"getElementsByClassName"
+			],
+			[
+				"list-style",
+				"list-style"
+			],
+			[
+				"utilit",
+				"utilityData"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"utility",
+				"utilityHeading"
+			],
+			[
+				"util",
+				"utilInfo"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"html",
+				"html bootstrap	html5-bootstrap"
+			],
+			[
+				"meta",
+				"meta	HTML - Meta tags"
+			],
+			[
+				"style",
+				"stylesheets"
+			],
+			[
+				"selec",
+				"selector"
+			],
+			[
+				"ea",
+				"each"
+			],
+			[
+				"jquery",
+				"jQuery.noop	jQuery.noop"
+			],
+			[
+				"H",
+				"Hyderabad"
+			],
+			[
+				"S",
+				"Sunrisers"
+			],
+			[
+				"Su",
+				"Super"
+			],
+			[
+				"overSc",
+				"overScoreProb"
+			],
+			[
+				"genera",
+				"generatedCSS"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"commen",
+				"commenter"
+			],
+			[
+				"blog",
+				"blog-sidebar"
+			],
+			[
+				"post",
+				"postID"
+			],
+			[
+				"db_inser",
+				"db_insert_id	CI - Active Record DB Last Inserted Id"
+			],
+			[
+				"date_add",
+				"date_added"
+			],
+			[
+				"db",
+				"db_where	CI - Active Record DB Where"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"text-t",
+				"text-decoration"
+			],
+			[
+				"bordse",
+				"border-bottom-style"
+			],
+			[
+				"border-top",
+				"border-top-width"
+			],
+			[
+				"border-left",
+				"border-left-width"
+			],
+			[
+				"int_t",
+				"int_three"
+			],
+			[
+				"is_i",
+				"is_int"
+			],
+			[
+				"package",
+				"package_name"
+			],
+			[
+				"manifest",
+				"manifest_parse"
+			],
+			[
+				"mani",
+				"manifest_str"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/YUI Compressor/YUI Compressor.sublime-build",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"Project: ",
+				"Project: Close"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package",
+				"Package Control: List Packages"
+			],
+			[
+				"snippet: comment",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"Snippet: ",
+				"Licence Snippet: GPLv3"
+			],
+			[
+				"Snippet: css",
+				"Snippet: CSS - /* -----*/"
+			],
+			[
+				"Package Control: P",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"package ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Set Syntax: Pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"Set Syntax: Markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enal",
+				"Package Control: Enable Package"
+			],
+			[
+				"snipplr",
+				"Snipplr: Search for a snippet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Set Reg",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"Disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"Set Syn",
+				"Set Syntax: HTML5"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Create Package File"
+			],
+			[
+				"Enable Package",
+				"Package Control: Enable Package"
+			],
+			[
+				"Enable P",
+				"Package Control: Enable Package"
+			],
+			[
+				"Enal",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: E",
+				"Package Control: Enable Package"
+			],
+			[
+				"Set Synt Rege",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"snippet: html",
+				"Snippet: html5"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Set Syntax: XM",
+				"Set Syntax: XML"
+			],
+			[
+				"require",
+				"Snippet: Backbone requirejs Module definition"
+			],
+			[
+				"Snippet: jQuery",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Set Syntax: SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"Set Syntax: C",
+				"Set Syntax: C"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"js",
+				"Snippet: js-explode"
+			],
+			[
+				"js-",
+				"Snippet: js-ajax"
+			],
+			[
+				"Snip",
+				"Snippet: copy"
+			],
+			[
+				"php",
+				"Snippet: json-php"
+			],
+			[
+				"Snippet: php",
+				"Snippet: json-php"
+			],
+			[
+				"Snippet: getElement",
+				"Snippet: Get Elements"
+			],
+			[
+				"Snippet: jQuery Min",
+				"Snippet: jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"Snippet: ifels",
+				"Snippet: if … else …"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 175.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/W/OpenSource/js/test.html",
+		"/W/OpenSource/js/mootools-core.js",
+		"/U/js/hilo/src/dom/main.js",
+		"/U/js/hilo/src/shim/array.js",
+		"/U/js/hilo/src/fx/simple.js",
+		"/U/js/hilo/src/evt/simple.js",
+		"/U/js/hilo/src/dom/helpers.js",
+		"/U/js/hilo/src/dom/els.js",
+		"/U/js/hilo/src/dom/class-id.js",
+		"/U/js/hilo/build/hilo.js",
+		"/U/js/hilo/build/hilo-dev.min.js",
+		"/W/OpenSource/js/backbone.js",
+		"/W/OpenSource/js/Ext/builds/ext-core-dev.js",
+		"/W/OpenSource/js/zepto.js",
+		"/U/js/hilo/build/hilo-dev.js",
+		"/U/js/hilo/src/dom/misc.js",
+		"/U/js/hilo/src/start.js",
+		"/U/js/hilo/src/core.js",
+		"/U/js/hilo/src/dom/css.js",
+		"/U/js/hilo/src/dom/manp.js",
+		"/U/js/hilo/src/ajax/main.js",
+		"/U/js/hilo/src/ext.js",
+		"/U/js/hilo/src/dom/qwery.js",
+		"/U/js/hilo/src/detect/feature.js",
+		"/D/Tutorials/eBooks/Tuts+/Digging Into Wordpress/Digging into WordPress Themes/All-AJAX/js/allajax.js",
+		"/U/js/hilo/package.json",
+		"/U/js/hilo/src/evt/helpers.js",
+		"/U/js/hilo/src/test/comp.js",
+		"/U/js/hilo/src/test/main.js",
+		"/U/js/hilo/src/end.js",
+		"/U/js/hilo/src/util/core.js",
+		"/U/js/hilo/src/shim/string.js",
+		"/U/js/hilo/src/dom/qwery-new.js",
+		"/U/js/hilo/src/shim/object.js",
+		"/W/OpenSource/js/es5-shim.js",
+		"/W/OpenSource/js/React/README.md",
+		"/W/OpenSource/js/React/docs/Gemfile",
+		"/W/OpenSource/js/React/docs/Gemfile.lock",
+		"/W/OpenSource/js/React/docs/_config.yml",
+		"/W/OpenSource/js/React/docs/_layouts/default.html",
+		"/U/js/hilo/LICENSE-MIT",
+		"/U/js/hilo/hilo.sublime-project",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/myMacro.sublime-macro",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/PHPLint.sublime-build",
+		"/U/js/hilo/.gitignore",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/U/js/hilo/test/spec/dom.spec.js",
+		"/U/js/hilo/doc/dom/main.md",
+		"/U/js/hilo/Gruntfile.js",
+		"/U/js/hilo/test/raw.html",
+		"/U/cpp/1/hello.c",
+		"/U/js/hilo/doc/tute.md",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/U/js/hilo/README.md",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme",
+		"/U/ruby/age.rb",
+		"/U/ruby/loop.rb",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Dawn.tmTheme.cache",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+		"/U/book/wdr/Gruntfile.js",
+		"/U/cli/ex/defrit/bin/defrit",
+		"/U/cli/ex/defrit/lib/defrit.js",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Jasmine.sublime-settings",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/U/cli/ex/node_modules/defrit/node_modules/coffee-script/package.json",
+		"/U/cli/ex/node_modules/defrit/package.json",
+		"/U/cli/ex/node_modules/defrit/bin/defrit",
+		"/U/cli/ex/node_modules/defrit/node_modules/optimist/readme.markdown",
+		"/C/Users/Rishi/AppData/Roaming/npm/node_modules/bower/package.json",
+		"/U/cli/ex/node_modules/defrit/node_modules/colors/ReadMe.md",
+		"/C/Users/Rishi/AppData/Roaming/npm/bower.cmd",
+		"/U/js/MX/mx.js",
+		"/U/cli/ex/node_modules/defrit/lib/defrit.js",
+		"/U/nodejs/assets/config.json",
+		"/U/nodejs/watch.js",
+		"/C/Users/Rishi/AppData/Roaming/npm/node_modules/defrit/bin/defrit",
+		"/C/Users/Rishi/AppData/Roaming/npm/defrit",
+		"/C/Users/Rishi/AppData/Roaming/npm/defrit.cmd",
+		"/U/cli/ex/node_modules/defrit/README.md",
+		"/U/cli/ex/node_modules/defrit/README",
+		"/U/cli/ex/node_modules/defrit-concat",
+		"/U/c9/node_modules/jsDAV/README.md",
+		"/U/js/hilo/node_modules/grunt-contrib-concat/tasks/lib/comment.js",
+		"/U/js/hilo/node_modules/grunt-contrib-concat/tasks/concat.js",
+		"/U/js/hilo/node_modules/grunt/node_modules/nopt/README.md",
+		"/U/js/crap/testing/node_modules/console-browserify/README.md",
+		"/U/js/hilo/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/readme.markdown",
+		"/U/cli/ex/node_modules/defrit/lib/cli.js",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI93.835/progress.js",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI85.739/static.js",
+		"/U/cli/ex/node_modules/defrit/lib/CLI-README.md",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DR01.469/cli-master/README.md",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI00.972/package.json",
+		"/U/nodejs/write.js",
+		"/U/nodejs/writeSync.js",
+		"/U/nodejs/read.js",
+		"/U/nodejs/assets/readSync.js",
+		"/U/nodejs/writeSync",
+		"/U/nodejs/assets/readSync",
+		"/U/nodejs/assets/sample.txt",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI01.764/README.md",
+		"/U/cli/ex/defrit.json",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI22.203/cat.js",
+		"/U/cli/defrit/LICENSE-MIT",
+		"/U/cli/defrit/package.json",
+		"/U/cli/defrit/bin/defrit",
+		"/U/cli/defrit/lib/defrit.js",
+		"/W/OpenSource/js/Bower/bin/bower",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI31.278/cli.js",
+		"/U/cli/defrit/lib/cli.js",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI01.702/cli.js",
+		"/U/cli/defrit/node_modules/cli/bin/birdie",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DR10.1213/cli-app-master/bin/birdie",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI10.5566/package.json",
+		"/U/cli/defrit/node_modules/optimist/package.json",
+		"/U/cli/defrit/node_modules/cli/package.json",
+		"/W/OpenSource/css/960 Grid System/README.txt",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI01.230/package.json",
+		"/W/OpenSource/css/Bootstrap/js/bootstrap.min.js",
+		"/W/OpenSource/css/Bootstrap/js/bootstrap.js",
+		"/D/Dev/Docs/Programming/PHP/style.css",
+		"/U/js/hilo/build/hilo.min.js",
+		"/W/OpenSource/js/JS The Right Way/README.md",
+		"/W/OpenSource/php/PHP The Right Way/README.md"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"console.log(",
+			"\")",
+			"console.log(",
+			"  ",
+			"[^\\#\\[\\]\\.\\s\\=\\*\\(\\)\\:\\,\\=\\|]+",
+			"Sexeption",
+			"siblingsOfType",
+			"nodeNam",
+			"place",
+			"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dignissimos esse doloribus delectus velit placeat iste nobis fugiat explicabo a totam maiores cupiditate id distinctio sed eligendi perferendis quasi assumenda?</span>\n							<span>Rem commodi mollitia praesentium in esse beatae earum distinctio optio nostrum! Nihil natus nesciunt debitis corrupti quod similique consequuntur harum quae aliquid velit. Repudiandae earum dolorem mollitia facere qui itaque!</span>\n							<span>Necessitatibus voluptate delectus ducimus harum quibusdam atque aliquid iste quas rerum sed itaque minima ipsum repudiandae voluptatum ea beatae eum suscipit dolor fugit ut molestiae sequi temporibus repellat a velit.</span>",
+			"nextSibling",
+			"nextTo",
+			"undefined",
+			"nextSibling",
+			"nextTo",
+			"s",
+			"el",
+			"l",
+			"nextSibling",
+			"hasAttribute",
+			"childrenOf",
+			"getDirect",
+			">\n",
+			"i",
+			"Math.cos",
+			"Math.sin",
+			"<>",
+			"h2h2",
+			"></",
+			"href=\"\"",
+			"_root",
+			"h(",
+			"&& ",
+			"// >",
+			"\n            break;",
+			"}\n            break;",
+			"el.className.replace(parts[_i]);",
+			"parts(_i)",
+			"(_i)",
+			"className",
+			"replace",
+			"parts(_i)",
+			"className",
+			"has",
+			"contains = ",
+			"default\\",
+			"default",
+			"has",
+			"el.classList.contains(className)",
+			"first",
+			"next",
+			"parent",
+			"show",
+			"hidden",
+			"place",
+			"el",
+			"first",
+			"attr",
+			"// ",
+			"cool",
+			"get",
+			"cg",
+			"get",
+			"map",
+			"--------------------------------------------------",
+			"html",
+			"this.one",
+			"append",
+			"appendTextCode",
+			"html",
+			"htmlCode",
+			"html",
+			"text",
+			"textCode",
+			"html",
+			"-----------------------",
+			"-----------------------\n",
+			"--------------------------------------------------",
+			"Dookamuntasoon",
+			"DOCUMENTATOZN",
+			"))",
+			"parseFloat(this.computed",
+			"document",
+			"window",
+			"document",
+			"window",
+			"in p",
+			"meter",
+			"microdameterta",
+			"mp3",
+			" ad",
+			" ad ",
+			"ad",
+			"a.",
+			"a",
+			", ",
+			"password",
+			"name",
+			"i.setAttribute",
+			"\n        var v = c(\"video\");",
+			"c('video')",
+			"window",
+			"document.createElement",
+			"str",
+			"/*!",
+			"ws]",
+			" != ",
+			" == ",
+			" !=  ",
+			"e.split",
+			".slice",
+			"slice",
+			"indexOf",
+			"while( ",
+			"var",
+			"var ",
+			"null",
+			"){",
+			"if(",
+			"===",
+			"==",
+			"/react",
+			"{ site.",
+			"}}",
+			"/react/",
+			"/react",
+			"_site",
+			"ctrl+k\", \"ctrl+s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"parts[_i]",
+			"#bottom-nav",
+			"",
+			"@return Array",
+			"@return Object",
+			"EventListener",
+			"addEventListener",
+			"Dom.",
+			"Event",
+			"erikroyall.lorem",
+			"Part \\1",
+			"Part \\2",
+			"[\\1]",
+			"",
+			"<\\1>",
+			"[\\1]",
+			"[\\1]\\2[\\3]",
+			"[\\1]",
+			"\\1\\2\\3",
+			"[\\s*(\\S+)(\\s[^>])?>[\\s\\S]*<\\s*\\/\\1\\s*]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"output.phpdocumentor":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/U/js/hilo/hilo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}
