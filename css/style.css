@@ -130,7 +130,9 @@ ul {
 		border: 0px solid #fff;
 		margin: 0;
 	}
+}
 
+@media screen and (max-width: 480px) {
 	.avatar, .caption {
 		display: block;
 		float: none;
