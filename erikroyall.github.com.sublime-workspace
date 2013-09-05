@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"doc",
+				"doctype HTML 4.01 Transitional DTD	doctype HTML 4.01 Transitional DTD"
+			],
+			[
 				"getElements",
 				"getElementsByTagName"
 			],
@@ -510,15 +514,51 @@
 			[
 				"manifest",
 				"manifest_parse"
-			],
-			[
-				"mani",
-				"manifest_str"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 1433,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 2451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/YUI Compressor/YUI Compressor.sublime-build",
 	"command_palette":
@@ -784,6 +824,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/js/main.js",
+		"/I/hilo/index.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/js/vendor/hilo-dev.min.js",
+		"/U/jekyll/er/assets/css/main.css",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_site/assets/js/vendor/hilo-dev.min.js",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/.gitignore",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/CHANGELOG.markdown",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/README.markdown",
+		"/U/c9/package.json",
 		"/W/OpenSource/js/test.html",
 		"/W/OpenSource/js/mootools-core.js",
 		"/U/js/hilo/src/dom/main.js",
@@ -902,16 +951,7 @@
 		"/U/cli/defrit/node_modules/cli/bin/birdie",
 		"/C/Users/Rishi/AppData/Local/Temp/Rar$DR10.1213/cli-app-master/bin/birdie",
 		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI10.5566/package.json",
-		"/U/cli/defrit/node_modules/optimist/package.json",
-		"/U/cli/defrit/node_modules/cli/package.json",
-		"/W/OpenSource/css/960 Grid System/README.txt",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI01.230/package.json",
-		"/W/OpenSource/css/Bootstrap/js/bootstrap.min.js",
-		"/W/OpenSource/css/Bootstrap/js/bootstrap.js",
-		"/D/Dev/Docs/Programming/PHP/style.css",
-		"/U/js/hilo/build/hilo.min.js",
-		"/W/OpenSource/js/JS The Right Way/README.md",
-		"/W/OpenSource/php/PHP The Right Way/README.md"
+		"/U/cli/defrit/node_modules/optimist/package.json"
 	],
 	"find":
 	{
@@ -929,6 +969,24 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$",
+			"nav",
+			"84",
+			"ede9e4",
+			"adf3ed",
+			"fdf3ed",
+			"adf3ed",
+			"444",
+			"hsla",
+			"ede934",
+			"bf2718",
+			"2f615e",
+			"Footer",
+			"d62c1a",
+			"$",
+			"class",
+			"{{site.url}}",
+			"\n    <script src=\"{{site.url}}/assets/js/main.js\"></script>",
 			"console.log(",
 			"\")",
 			"console.log(",
@@ -1038,25 +1096,7 @@
 			" != ",
 			" == ",
 			" !=  ",
-			"e.split",
-			".slice",
-			"slice",
-			"indexOf",
-			"while( ",
-			"var",
-			"var ",
-			"null",
-			"){",
-			"if(",
-			"===",
-			"==",
-			"/react",
-			"{ site.",
-			"}}",
-			"/react/",
-			"/react",
-			"_site",
-			"ctrl+k\", \"ctrl+s"
+			"e.split"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1094,8 +1134,146 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 1433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/header.html",
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1342,
+								1342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 417.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/main.css",
+					"settings":
+					{
+						"buffer_size": 2451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2448,
+								2448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2101.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/js/main.js",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
