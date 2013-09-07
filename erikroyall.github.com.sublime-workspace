@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"pos",
+				"position"
+			],
+			[
+				"ava",
+				"avatar"
+			],
+			[
+				"avatar",
+				"avatar-img"
+			],
+			[
 				"doc",
 				"doctype HTML 4.01 Transitional DTD	doctype HTML 4.01 Transitional DTD"
 			],
@@ -502,60 +514,48 @@
 			[
 				"int_t",
 				"int_three"
-			],
-			[
-				"is_i",
-				"is_int"
-			],
-			[
-				"package",
-				"package_name"
-			],
-			[
-				"manifest",
-				"manifest_parse"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
+			"file": "tools/index.html",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 1523,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/footer.html",
+			"file": "tools/html5-page/index.html",
 			"settings":
 			{
-				"buffer_size": 1433,
+				"buffer_size": 2340,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/header.html",
+			"file": "js/tool-html5-page.js",
 			"settings":
 			{
-				"buffer_size": 1383,
+				"buffer_size": 240,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/main.css",
+			"file": "css/tools.css",
 			"settings":
 			{
-				"buffer_size": 2451,
-				"line_ending": "Unix"
+				"buffer_size": 1693,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/js/main.js",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 381,
+				"buffer_size": 1850,
 				"line_ending": "Unix"
 			}
 		}
@@ -566,6 +566,14 @@
 		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
 			[
 				"Project: ",
 				"Project: Close"
@@ -668,10 +676,6 @@
 			],
 			[
 				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"Install",
 				"Package Control: Install Package"
 			],
 			[
@@ -824,6 +828,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Rishi/AppData/Local/Temp/src3762.txt",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/index.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/style.css",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/README.md",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_config.yml",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/footer.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/header.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/css/main.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/js/main.js",
 		"/I/hilo/index.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/js/vendor/hilo-dev.min.js",
@@ -943,15 +955,7 @@
 		"/U/cli/defrit/LICENSE-MIT",
 		"/U/cli/defrit/package.json",
 		"/U/cli/defrit/bin/defrit",
-		"/U/cli/defrit/lib/defrit.js",
-		"/W/OpenSource/js/Bower/bin/bower",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI31.278/cli.js",
-		"/U/cli/defrit/lib/cli.js",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI01.702/cli.js",
-		"/U/cli/defrit/node_modules/cli/bin/birdie",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DR10.1213/cli-app-master/bin/birdie",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI10.5566/package.json",
-		"/U/cli/defrit/node_modules/optimist/package.json"
+		"/U/cli/defrit/lib/defrit.js"
 	],
 	"find":
 	{
@@ -969,6 +973,40 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"right",
+			"border",
+			"<fieldset>",
+			"fieldset",
+			"Title",
+			"eeeeee",
+			"title",
+			"<label for=\"title\">Title</label>\n          <input type=\"text\" name=\"title\" id=\"title\"/>",
+			"h2",
+			"div",
+			"</i>",
+			"<i>",
+			"b",
+			"h3",
+			"li",
+			"//",
+			"hotmail",
+			"dotted",
+			"dddddd",
+			"210",
+			"240",
+			"	",
+			"browser",
+			"   ",
+			"\n			position: relative;",
+			"0% {\n		background-color: #eeeeee;\n	}\n\n	20% {\n		background-color: #dddddd;\n	}\n\n	40% {\n		background-color: #ffffff;\n	}\n\n	60% {\n		background-color: #dddddd;\n	}\n\n	80% {\n		background-color: #eeeeee;\n	}\n\n	100% {\n		background-color: #dddddd;\n	}",
+			"dddddd",
+			", ",
+			"Calibri",
+			"h1",
+			"Designers",
+			"whitesmoke",
+			"div",
+			"linl",
 			"$",
 			"nav",
 			"84",
@@ -1062,41 +1100,7 @@
 			"text",
 			"textCode",
 			"html",
-			"-----------------------",
-			"-----------------------\n",
-			"--------------------------------------------------",
-			"Dookamuntasoon",
-			"DOCUMENTATOZN",
-			"))",
-			"parseFloat(this.computed",
-			"document",
-			"window",
-			"document",
-			"window",
-			"in p",
-			"meter",
-			"microdameterta",
-			"mp3",
-			" ad",
-			" ad ",
-			"ad",
-			"a.",
-			"a",
-			", ",
-			"password",
-			"name",
-			"i.setAttribute",
-			"\n        var v = c(\"video\");",
-			"c('video')",
-			"window",
-			"document.createElement",
-			"str",
-			"/*!",
-			"ws]",
-			" != ",
-			" == ",
-			" !=  ",
-			"e.split"
+			"-----------------------"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1134,54 +1138,55 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
+					"file": "tools/index.html",
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 1523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								393
+								971,
+								971
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_includes/footer.html",
+					"file": "tools/html5-page/index.html",
 					"settings":
 					{
-						"buffer_size": 1433,
+						"buffer_size": 2340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								570,
-								570
+								236,
+								236
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1192,46 +1197,45 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/header.html",
+					"file": "js/tool-html5-page.js",
 					"settings":
 					{
-						"buffer_size": 1383,
+						"buffer_size": 240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1342,
-								1342
+								94,
+								94
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 417.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "assets/css/main.css",
+					"file": "css/tools.css",
 					"settings":
 					{
-						"buffer_size": 2451,
+						"buffer_size": 1693,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2448,
-								2448
+								1593,
+								1593
 							]
 						],
 						"settings":
@@ -1241,35 +1245,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2101.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "assets/js/main.js",
+					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 381,
+						"buffer_size": 1850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								1017,
+								1017
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1158.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
