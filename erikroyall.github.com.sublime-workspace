@@ -1138,7 +1138,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1159,7 +1159,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 23.0,
@@ -1234,8 +1236,8 @@
 						"selection":
 						[
 							[
-								1593,
-								1593
+								387,
+								387
 							]
 						],
 						"settings":
@@ -1245,7 +1247,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 258.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1343,7 +1345,7 @@
 		[
 			[
 				"",
-				"/U/js/hilo/hilo.sublime-project"
+				"/Z/Awes UI/Awes UI.sublime-project"
 			]
 		],
 		"width": 380.0
