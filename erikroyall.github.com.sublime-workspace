@@ -552,6 +552,14 @@
 			}
 		},
 		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 11,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "css/style.css",
 			"settings":
 			{
@@ -1138,7 +1146,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1254,6 +1262,32 @@
 				},
 				{
 					"buffer": 4,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "css/style.css",
 					"settings":
 					{
