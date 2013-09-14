@@ -566,6 +566,14 @@
 				"buffer_size": 1850,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 27039,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/YUI Compressor/YUI Compressor.sublime-build",
@@ -1161,8 +1169,8 @@
 						"selection":
 						[
 							[
-								971,
-								971
+								234,
+								234
 							]
 						],
 						"settings":
@@ -1312,6 +1320,33 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 27039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1379,7 +1414,7 @@
 		[
 			[
 				"",
-				"/Z/Awes UI/Awes UI.sublime-project"
+				"/U/js/hilo/hilo.sublime-project"
 			]
 		],
 		"width": 380.0
