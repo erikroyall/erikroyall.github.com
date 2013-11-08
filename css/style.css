@@ -7,6 +7,7 @@
 body {
   background-color: #d3c8b4;
   font-family: "Alegreya";
+  font-size: 1em;
 }
 
 .clearfix:after {
@@ -108,10 +109,6 @@ a {
   margin: 1em auto;
 }
 
-p {
-  font-size: 1.5em;
-}
-
 .title {
   margin: 3em auto;
   font-size: 5em;
@@ -152,6 +149,10 @@ p {
 	font-size: 1.35em;
 }
 
+.postcontent {
+  font-size: 1.5em;
+}
+
 h3 {
 	font-size: 1.8em;
 }
@@ -163,3 +164,16 @@ h4 {
 .content {
 	font-size: 1.5em;
 }
+
+pre {
+  font-size: 0.875em;
+  display: block;
+  background-color: #1e3750;
+  color: #d3c8b4;
+}
+
+  pre code {
+    padding: 0.875em;
+    overflow-x: auto;
+    display: block;
+  }
