@@ -11,10 +11,17 @@ layout: default
 
   {% for post in site.posts limit:5 %}
  
-  <div class="blogpost">
-    <a href="{{ site.url }}{{ post.url }}"><h3 class="blogposttitle">{{ post.title }}</h3></a>
-    <div class="blogpostmetadata">Published on {{ post.date | date: "%B %d, %Y" }}</div>
-  </div>
+  <a href="{{ site.url }}{{ post.url }}">
+  	<div class="blogpost">
+	    <h3 class="blogposttitle">{{ post.title }}</h3>
+	    <div>
+	    	<p><span class="blogpostmetadata">Published on {{ post.date | date: "%B %d, %Y" }}</span></p>
+	    </div>
+	    <div class="blogpostexcerpt">
+	    	<p>{{ post.excerpt }}</p>
+	    </div>
+	  </div>
+	</a>
  
   {% endfor %}
 </div>

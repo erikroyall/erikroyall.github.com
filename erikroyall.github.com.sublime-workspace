@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"block",
+				"blockquote"
+			],
+			[
 				"trans",
-				"transform	CSS - transform: ;"
+				"transparent"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"gra",
+				"grayscale"
 			],
 			[
 				"text",
@@ -502,84 +514,56 @@
 			[
 				"bordse",
 				"border-bottom-style"
-			],
-			[
-				"border-top",
-				"border-top-width"
-			],
-			[
-				"border-left",
-				"border-left-width"
-			],
-			[
-				"int_t",
-				"int_three"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "int/love/index.html",
 			"settings":
 			{
-				"buffer_size": 508,
+				"buffer_size": 697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "int/love/style.css",
+			"settings":
+			{
+				"buffer_size": 799,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/OpenSource/html/html5-boilerplate/index.html",
+			"settings":
+			{
+				"buffer_size": 1957,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "blog.html",
+			"file": "/W/OpenSource/html/html5-bones/index.html",
 			"settings":
 			{
-				"buffer_size": 472,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/header.html",
-			"settings":
-			{
-				"buffer_size": 1843,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/post.html",
-			"settings":
-			{
-				"buffer_size": 261,
-				"line_ending": "Windows"
+				"buffer_size": 6369,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1939,
+				"buffer_size": 4707,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 50,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 17,
-				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/YUI Compressor/YUI Compressor.sublime-build",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 400.0,
 		"selected_items":
 		[
 			[
@@ -827,7 +811,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 504.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -844,6 +828,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/blog.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_layouts/post.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_config.yml",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/style.css",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/post-header.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/index.html",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/header.html",
+		"/U/js/hilo/build/rls/hilo-0.1.0-pre-dev-beta-9.js",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_posts/2013-11-08-the-schedule.md",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/sidebar.html",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/.gitignore",
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI02.995/OFL.txt",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_posts/2013-10-10-javascript-unit-testing-basics.md",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/footer.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_layouts/default.html",
@@ -852,17 +850,12 @@
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/theme.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/layout.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/base.css",
-		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/style.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/css/tools.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/tools/index.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/tools/html5-page/index.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/js/tool-html5-page.js",
-		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/.gitignore",
 		"/C/Users/Rishi/AppData/Local/Temp/src3762.txt",
-		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/index.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/README.md",
-		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_config.yml",
-		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/_includes/header.html",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/css/main.css",
 		"/C/Users/Rishi/Documents/GitHub/erikroyall.github.com/assets/js/main.js",
 		"/I/hilo/index.html",
@@ -919,9 +912,7 @@
 		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/PHPLint.sublime-build",
 		"/U/js/hilo/.gitignore",
-		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/C/Users/Rishi/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/U/js/hilo/test/spec/dom.spec.js",
 		"/U/js/hilo/doc/dom/main.md",
 		"/U/js/hilo/Gruntfile.js",
@@ -964,18 +955,11 @@
 		"/U/js/crap/testing/node_modules/console-browserify/README.md",
 		"/U/js/hilo/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/readme.markdown",
 		"/U/cli/ex/node_modules/defrit/lib/cli.js",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI93.835/progress.js",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI85.739/static.js",
-		"/U/cli/ex/node_modules/defrit/lib/CLI-README.md",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DR01.469/cli-master/README.md",
-		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI00.972/package.json",
-		"/U/nodejs/write.js",
-		"/U/nodejs/writeSync.js",
-		"/U/nodejs/read.js"
+		"/C/Users/Rishi/AppData/Local/Temp/Rar$DI93.835/progress.js"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -989,6 +973,28 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"div",
+			"../icon/fonts/",
+			"##",
+			"2c3e50",
+			".",
+			"background-",
+			"family",
+			"sidebar",
+			"header",
+			"overflow: none;",
+			"480608",
+			"c84648",
+			"<li",
+			"color",
+			"fonts/",
+			"AurulentSans-Regular-webfont",
+			"4",
+			"3",
+			"2",
+			")",
+			"am",
+			"Learning",
 			"post",
 			"blog",
 			"## ",
@@ -1094,34 +1100,12 @@
 			"h(",
 			"&& ",
 			"// >",
-			"\n            break;",
-			"}\n            break;",
-			"el.className.replace(parts[_i]);",
-			"parts(_i)",
-			"(_i)",
-			"className",
-			"replace",
-			"parts(_i)",
-			"className",
-			"has",
-			"contains = ",
-			"default\\",
-			"default",
-			"has",
-			"el.classList.contains(className)",
-			"first",
-			"next",
-			"parent",
-			"show",
-			"hidden",
-			"place",
-			"el",
-			"first"
+			"\n            break;"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"parts[_i]",
@@ -1154,29 +1138,30 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "int/love/index.html",
 					"settings":
 					{
-						"buffer_size": 508,
+						"buffer_size": 697,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								508,
-								508
+								15,
+								15
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1186,23 +1171,26 @@
 				},
 				{
 					"buffer": 1,
-					"file": "blog.html",
+					"file": "int/love/style.css",
 					"settings":
 					{
-						"buffer_size": 472,
+						"buffer_size": 799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								376
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1212,55 +1200,55 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/header.html",
+					"file": "/W/OpenSource/html/html5-boilerplate/index.html",
 					"settings":
 					{
-						"buffer_size": 1843,
+						"buffer_size": 1957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								531,
+								531
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 505.0,
+						"translation.y": 182.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_layouts/post.html",
+					"file": "/W/OpenSource/html/html5-bones/index.html",
 					"settings":
 					{
-						"buffer_size": 261,
+						"buffer_size": 6369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 556.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1270,15 +1258,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 1939,
+						"buffer_size": 4707,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1808,
-								1808
+								1031,
+								933
 							]
 						],
 						"settings":
@@ -1288,59 +1276,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2444.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_config.yml",
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 17,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1411,7 +1347,7 @@
 		[
 			[
 				"",
-				"/Z/connect/connect.sublime-project"
+				"/D/bwd/Best Web Designer.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1420,6 +1356,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true
 }

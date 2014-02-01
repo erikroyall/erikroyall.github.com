@@ -1,14 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700);
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,latin-ext);*/
 
-* {
+@font-face {
+  font-family: 'Icomoon';
+  src: url('../icon/fonts/icomoon.eot');
+  src: url('../icon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+  url('../icon/fonts/icomoon.woff') format('woff'),
+  url('../icon/fonts/icomoon.ttf') format('truetype'),
+  url('../icon/fonts/icomoon.svg') format('svg');
+}
+
+*,
+*:after,
+*:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 body {
-  background-color: #d3c8b4;
-  font-family: "Alegreya";
+  background-color: #bdc3c7;
+  font-family: "Segoe UI";
   font-size: 1em;
 }
 
@@ -20,151 +31,37 @@ body {
 	clear: both;
 }
 
-::selection {
-  background-color: #c84648;
+::selection,
+:after::selection,
+:before::selection {
+  background-color: #2c3e50;
   color: #fff;
 }
 
 a {
-  color: #c84648;
+  color: #2c3e50;
   text-decoration: none;
+  border-bottom: 1px dotted #2c3e50;
 }
 
   a:hover, a:focus {
-    color: #880608;
+    color: #0c1e30;
+    border-bottom-color: #0c1e30;
   }
 
   a:visited {
-  	color: #c84648;
+  	color: #2c3e50;
+    border-bottom-color: #2c3e50;
   }
 
   a:active {
-  	color: #480608;
+  	color: #6c7e90;
+    border-bottom-color: #6c7e90;
   }
 
-.header {
-  font-weight: normal;
-}
-
-.logo {
-  margin: 1em auto;
-  font-size: 5em;
-  text-align: center;
-  color: #c84648;
-}
-
-.who {
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-}
-.who ul {
- margin: 0 auto;
-  padding: 0;
-}
-
-.tag {
-  display: inline-block;
-  text-align: center;
-  list-style: none;
-  padding: 1em;
-  background-color: #444;
-  color: #fff;
-  margin: 0.1em 0;
-
-  -webkit-animation: contrast 1s infinite;
-  -moz-animation: contrast 1s infinite;
-  -o-animation: contrast 1s infinite;
-  animation: contrast 1s infinite;
-}
-
-  .tag:hover {
-    -webkit-filter: contrast(120%);
-  }
-
-.blue {
-  background-color: #1e3750;
-}
-
-.green {
-  background-color: #027b7f;
-}
-
-.orange {
-  background-color: #fa4b4b;
-}
-
-.red {
-  background-color: #c01a40;
-}
-
-.purple {
-  background-color: #572e4f;
-}
-
-.since {
-  text-align: center;
-  color: #736851;
-  width: 80%;
-  margin: 1em auto;
-}
-
-.title {
-  margin: 3em auto;
-  font-size: 5em;
-}
-
-/*==========  Blog post section  ==========*/
-
-.from {
-	font-size: 3em;
-	padding: 0;
-}
-
-.blogposts {
-	padding: 1em;
-}
-
-.blogposttitle {
-	font-size: 2em;
-}
-
-.blogpostmetadata {
-	font-size: 1.35em;
-}
-
-.blogpostexcerpt {
-	font-size: 1.5em;
-}
-
-.post {
-	padding: 1em;
-}
-
-.posttitle {
-	font-size: 2.5em;
-}
-
-.postmetadata {
-	font-size: 1.35em;
-}
-
-.postcontent {
-  font-size: 1.5em;
-}
-
-h3 {
-	font-size: 1.8em;
-}
-
-h4 {
-	font-size: 1.5em;
-}
-
-.content {
-	font-size: 1.5em;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI";
+  color: #2c3e50;
 }
 
 pre {
@@ -179,3 +76,162 @@ pre {
     overflow-x: auto;
     display: block;
   }
+
+.header {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  overflow: auto;
+  border-top: 5px solid #2c3e50;
+}
+
+  .logo {
+    font-size: 5em;
+    margin: 1.2em auto;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .who {
+    /*font-style: italic;*/
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 0 2em;
+  }
+
+  .social {
+    width: 100%;
+    overflow: auto;
+    background-color: #16a085;
+  }
+
+    .icons {
+      padding: 0;
+      overflow: auto;
+      max-width: 1024px;
+      margin: 0 auto;
+      box-shadow: 0 0 4px 1px rgba(0,0,0,.4);
+    }
+
+      .icon {
+        color: #fff;
+        list-style: none;
+        width: 12.5%;
+        height: 60px;
+        font: 30px "Icomoon";
+
+        text-align: center;
+        line-height: 60px;
+        float: left;
+
+        -webkit-filter: grayscale(100%);
+
+        -webkit-transition: -webkit-filter 0.4s ease-in-out;
+      }
+
+        .icon:hover {
+          -webkit-filter: grayscale(0%) !important;
+        }
+
+      @media (max-width: 480px) {
+        .icon {
+          width: 25%;
+        }
+      }
+
+      .tw { background-color: #2980b9; }
+      .fb { background-color: #2c3e50; }
+      .gp { background-color: #c0392b; }
+      .dr { background-color: #8e445d; }
+      .gh { background-color: #5f6c6d; }
+      .wp { background-color: #34495e; }
+      .so { background-color: #d35400; }
+      .pn { background-color: #c0392b; }
+
+.blogposts {
+  padding: 1em;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+  .from {
+    margin-top: 0;
+    font-size: 3em;
+  }
+
+  .blogpost {
+    padding: 1em;
+    color: #444;
+    background-color: #ecf0f1;
+    margin-bottom: 1em;
+    transition: background-color, box-shadow .4s ease-in-out;
+    
+  }
+
+    .blogpost:hover {
+      background-color: #f5f9fa;
+      box-shadow: 0 0 4px 1px rgba(0,0,0,.4);
+    }
+
+    .blogposttitle {
+      margin-top: 0;
+    }
+
+    .blogpostmetadata:before {
+      content: 'c';
+      font-family: "Icomoon";
+      padding-right: 0.5em;
+    }
+
+    .blogpostexcerpt {
+      text-align: justify;
+    }
+
+.sidebar {
+  width: 40%;
+  float: left;
+  position: fixed;
+}
+
+  .sidebar>.logo {
+    font-size: 2em;
+  }
+
+  .sidebar .social {
+    background-color: transparent;
+  }
+
+  .sidebar .icon {
+    width: 25%;
+    background-color: transparent;
+    color: #7f8c8d;
+  }
+
+    .sidebar .tw { color: #2980b9; }
+    .sidebar .fb { color: #2c3e50; }
+    .sidebar .gp { color: #c0392b; }
+    .sidebar .dr { color: #8e445d; }
+    .sidebar .gh { color: #5f6c6d; }
+    .sidebar .wp { color: #34495e; }
+    .sidebar .so { color: #d35400; }
+    .sidebar .pn { color: #c0392b; }
+
+
+.post {
+  width: 60%;
+  margin-left: 40%;
+  padding: 1em;
+  border-left: 1px solid #7f8c8d;
+}
+
+@media (max-width: 800px) {
+  .sidebar, .post {
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+
+  .post {
+    border: none;
+  }
+}

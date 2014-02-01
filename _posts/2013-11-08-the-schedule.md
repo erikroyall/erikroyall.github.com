@@ -9,7 +9,7 @@ Well, for those who don't know what "The Schedule" is, it's simply a revision sc
 
 The Schedule started on 30th of October. By "The Schedule", I refer to the 3 revision schedules, 3 pre-final examinations and the pre-public examination.
 
-## How it goes on.
+### How it goes on.
 
 Well, first and foremost, I reach school by 7:45 am for which I will be picked up by my private van at 7 am, which is a 45 min. journey, picking up 4 others along the way. At last I reach school in time, at 7:45 am, of course. Then starts the school prayer *(I never really prayed)* followed by meditation. And it'll be 8:15 by the time we reach the classrooms.
 

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Icomoon';
+  src: url('icomoon.eot');
+  src: url('icomoon.eot?#iefix') format('embedded-opentype'),
+  url('icomoon.woff') format('woff'),
+  url('icomoon.ttf') format('truetype'),
+  url('icomoon.svg') format('svg');
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgba(142, 68, 93, .7);
+  color: #fff;
+}
+
+body {
+  background-color: #ccc;
+}
+
+/* Helper classes */
+
+.ico {
+  font-family: "Icomoon";
+}
+
+/* Header */
+
+.header {
+  overflow: auto;
+}
+
+  .title {
+    color: #8e445d;
+    font-family: "A Gentle Touch";
+    font-size: 5em;
+    font-weight: normal;
+    text-align: center;
+    margin: 1em 0;
+  }
+
+    .titico {
+      display: block;
+      font-size: 2em;
+    }
