@@ -1,0 +1,27 @@
+---
+title: Home
+description: Erik Royall is a 15 year-old Web Developer, Blogger and Designer residing in Hyderbad, India
+author: Erik Royall
+layout: default
+---
+
+<div class="blogposts">
+
+	<h2 class="from">From The Blog</h2>
+
+  {% for post in site.posts limit:5 %}
+ 
+  <a href="{{ site.url }}{{ post.url }}">
+  	<div class="blogpost">
+	    <h3 class="blogposttitle">{{ post.title }}</h3>
+	    <div>
+	    	<p><span class="blogpostmetadata">Published on {{ post.date | date: "%B %d, %Y" }}</span></p>
+	    </div>
+	    <div class="blogpostexcerpt">
+	    	<p>{{ post.excerpt }}</p>
+	    </div>
+	  </div>
+	</a>
+ 
+  {% endfor %}
+</div>

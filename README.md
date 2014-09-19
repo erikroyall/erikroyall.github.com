@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -16,3 +17,6 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+=======
+The personal home page of [Erik Royall](http://twitter.com/erikroyall)
+>>>>>>> 05d373db7705c06ad28ecde734807492e9a6cab3

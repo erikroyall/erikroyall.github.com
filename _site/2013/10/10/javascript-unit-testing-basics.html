@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+    <title>Erik Royall - Basics of Unit Testing JavaScript</title>
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <meta name="description" content="Erik Royall is a 15 year-old Web Developer, Blogger and Designer residing in Hyderbad, India">
+
+    <!-- Facebook -->
+    <meta property="og:site_name" content="Erik Royall"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="file:///C:/Users/Rishi/Documents/Github/erikroyall.github.com/img/avatar.jpg"/>
+    <meta property="og:email" content="erikroyall@gmail.com"/>
+    <meta property="og:description" content="Erik Royall is a 15 year-old Web Developer, Blogger and Designer residing in Hyderbad, India"/>
+
+    <!-- Authorship -->
+    <meta name="author" content="Erik Royall"/>
+
+    <!-- Mobile Web App Compatibility -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="file:///C:/Users/Rishi/Documents/Github/erikroyall.github.com/favicon.ico"/>
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet" href="file:///C:/Users/Rishi/Documents/Github/erikroyall.github.com/css/base.css"/>
+    <link rel="stylesheet" href="file:///C:/Users/Rishi/Documents/Github/erikroyall.github.com/css/style.css"/>
+  </head>
+  <body>
+    <div id="sidebar" class="sidebar">
+      <h1 class="logo">Erik Royall</h1>
+      <p class="who">Erik of all trades, master of none. Programmer and Activist. Creator of <a href="http://erikroyall.github.io/hilo">Hilo.js</a> and Author at <a href="http://tech.pro/erikroyall/blog">Tech.pro</a></p>
+      <div class="social">
+        <ul class="icons">
+          <a href="http://twitter.com/erikroyall"><li class="icon tw">h</li></a>
+          <a href="http://facebook.com/erik.royall"><li class="icon fb">i</li></a>
+          <a href="http://plus.google.com/+ErikRoyall"><li class="icon gp">j</li></a>
+          <a href="http://dribbble.com/erikroyall"><li class="icon dr">l</li></a>
+          <a href="http://github.com/erikroyall"><li class="icon gh">m</li></a>
+          <a href="http://erikroyall.wordpress.com"><li class="icon wp">o</li></a>
+          <a href="http://stackoverflow.com"><li class="icon so">p</li></a>
+          <a href="http://pinterest.com/erikroyall"><li class="icon pn">q</li></a>
+        </ul>
+      </div>
+    </div>
+<div class="post">
+  <h2 class="posttitle">Basics of Unit Testing JavaScript</h2>
+  <div class="postmetadata">Published on October 10, 2013</div>
+  <div class="postcontent">
+    <p>One thing you should really care about when writing code, whether it&#8217;s JavaScript or any other programming language, is it&#8217;s working. When you write a piece of code, you want it to work as expected, without any difference, and that&#8217;s why you write code after all. Think about a situation where you&#8217;ve literally written thousands of lines of code. You are sure that it works properly, but, will it? The answer is <em>not always</em>.</p>
+
+<blockquote>
+<p>Unit testing enables you to write code and make it work the way you expected it to</p>
+</blockquote>
+
+<h3 id='so_what_is_unit_testing_anyway'>So, what is unit testing, anyway?</h3>
+
+<p>The <a href='http://en.wikipedia.org/wiki/Unit_testing'>Wikipedia definiiton</a> for unit testing goes on like this:</p>
+
+<blockquote>
+<p>Unit testing is a method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures are tested to determine if they are fit for use</p>
+</blockquote>
+
+<p>I don&#8217;t know if it makes sense to you, it doesn&#8217;t to me. That&#8217;s the reason I have my own definition of it. Simply put:</p>
+
+<blockquote>
+<p>Unit Testing is a method by which you can test if a piece of code works as expected</p>
+</blockquote>
+
+<p>By now, I hope you know what unit testing is and how it&#8217;s useful in writing code.</p>
+
+<h3 id='enough_telling_about_unit_testing_tell_me_how_to'>Enough telling about unit testing, tell me how to</h3>
+
+<p>OK. Sorry. I&#8217;ll get to the point - How to (and what to) unit test?</p>
+
+<h4 id='what_do_we_need_to_test_for'>What do we need to test for?</h4>
+
+<p>Speaking in context of JavaScript, we need to test if doing something returns expected results. Some of the things that are often tested are:</p>
+
+<ul>
+<li>Return values of functions</li>
+
+<li>Properties of DOM elements</li>
+
+<li>Values of variables manipulated by closures</li>
+</ul>
+
+<p>In fact, everything in JavaScript can be tested and that&#8217;s pretty easy.</p>
+
+<h4 id='how_to_test'>How to test?</h4>
+
+<p>There are a lot of ways to test and there are even frameworks like <a href='http://pivotal.github.io/jasmine'>Jasmine</a>, <a href='http://qunitjs.com/'>QUnit</a> which will make the job easier. But for now, to keep his article simple (and as I&#8217;m a fan of vanilla JavaScript), I am not going to use a Unit testing framework. Instead, we will be writing a simple function <code>assert</code> which will be used throughout the article.</p>
+
+<pre><code>/**
+ * Simple assertion function
+ * 
+ * @param {Any} obj The first object
+ * @param {Any} ano The object to test against
+ * @return {Bool} If obj is exactly equal to ano
+ */
+function assert (obj, ano) {
+  return obj === ano;
+}</code></pre>
+
+<p>Really simple function, isn&#8217;t it? I&#8217;ve even written the documentation for you so that you can easily understand it. And now that we have our main tool for the job, let&#8217;s put it into use.</p>
+
+<h3 id='testing_code'>Testing code</h3>
+
+<p>To keep this article simple (and as I&#8217;m too lazy to write), I&#8217;ll test really simple things. I&#8217;ll not be testing DOM things, though that&#8217;s really easy (Setting the properties of elements and testing if they&#8217;re set), just because I don&#8217;t want to deal with browser-things in this article.</p>
+
+<p>First, before testing, I&#8217;ll write some code. But what code? Well, let&#8217;s make a simple function <code>add()</code> that will add two numbers. And even before that I&#8217;ll make a few expectations about the working of that function:</p>
+
+<ul>
+<li>It should take two numbers as input, add them, and return them</li>
+
+<li>If less than or more than two inputs are given, it should throw an error</li>
+</ul>
+
+<p>The code is really simple, believe me. Here it is:</p>
+
+<pre><code>/**
+ * Add two numbers
+ * 
+ * @param {Number} n1 The first number
+ * @param {Number} n2 The second number
+ * @return {Number} Sum of n1 and n2
+ */
+function add (n1, n2) {
+  // arguments is an array of arguments passed
+  // So, arguments.length is the number of arguments
+  if (arguments.length !== 2) {
+    throw new Error ();
+  }
+
+  return n1 + n2;
+}</code></pre>
+
+<p>Now we need to test if it works as expected.</p>
+
+<pre><code>assert(add(1, 4), 5) // true
+assert(add(45,34), 80) // false</code></pre>
+
+<p>Congratulations! You&#8217;ve learned how to unit test your code! I&#8217;ve covered the most basic stuff about unit testing in JavaScript and there&#8217;s a lot more to learn about it. But this article is about basics, right?</p>
+
+<p>And I&#8217;ve some homework for you:</p>
+
+<ul>
+<li>
+<p>Make a function that tells if one value is less than the other value. And similarly another that tells if it&#8217;s greater than.</p>
+</li>
+
+<li>
+<p>Write functions to assert whether the object is a(n)</p>
+
+<ul>
+<li>Object</li>
+
+<li>String</li>
+
+<li>Function</li>
+
+<li>String</li>
+
+<li>Boolean</li>
+</ul>
+</li>
+</ul>
+
+<p>Thanks for reading this article. And don&#8217;t forget to submit your homework below and ask if you have any questions regarding Unit testing.</p>
+  </div>
+</div>
+    <script type="text/javascript" src="js/enquire.js"></script>
+  </body>
+</html>

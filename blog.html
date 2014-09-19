@@ -1,0 +1,21 @@
+---
+title: Blog
+description: Erik Royall's blog
+author: Erik Royall
+layout: default
+---
+
+<div class="blogposts">
+
+  <h2 class="from">Blog</h2>
+
+  {% for post in site.posts %}
+ 
+  <div class="blogpost">
+    <a href="{{ site.url }}{{ post.url }}"><h3 class="blogposttitle">{{ post.title }}</h3></a>
+    <div class="blogpostmetadata">Published on {{ post.date | date: "%B %d, %Y" }}</div>
+    <p class="blogpostexcerpt">{{ post.excerpt }}</p>
+  </div>
+ 
+  {% endfor %}
+</div>
