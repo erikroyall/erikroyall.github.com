@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
+
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+

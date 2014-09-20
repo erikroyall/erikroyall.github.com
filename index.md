@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: page
 title: Erik Royall
 tagline: Supporting tagline
 ---

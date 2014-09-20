@@ -18,11 +18,17 @@
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <!-- CDN scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.js"></script>
   </head>
   <body>
     <!-- TODO: Build this header thing. -->
-    <div class="header"></div>
-
+    <div class="header">
+      <h1 class="title">Erik Royall</h1>
+    </div>
+      
     <div class="content">
       {{ content }}
     </div>
