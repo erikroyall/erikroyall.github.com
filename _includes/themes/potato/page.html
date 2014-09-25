@@ -14,19 +14,25 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}potato/css/style.css"/>
 
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed"/>
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed"/>
 
     <!-- CDN scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.js"></script>
+    <script src="{{ ASSET_PATH }}potato/js/script.js"></script>
   </head>
   <body>
     <!-- TODO: Build this header thing. -->
     <div class="header"></div>
-      
+      <ul class="nav">
+        <li><a href="{{ site.url }}/">Home</a></li>
+        <li><a href="{{ site.url }}/about.html">About</a></li>
+        <li><a href="{{ site.url }}/projects.html">Projects</a></li>
+        <li><a href="{{ site.url }}/blog">Blog</a></li>
+      </ul>
     <div class="content">
       {{ content }}
     </div>
