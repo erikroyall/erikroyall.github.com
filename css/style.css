@@ -10,6 +10,14 @@ html, body {
   outline: none;
 }
 
+#im {
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
 .im {
   font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
 }
