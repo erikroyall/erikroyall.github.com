@@ -1,5 +1,13 @@
+body { background: #1A202C; color: #72B095 }
 * { font-family: monospace; }
-a { color: #222; text-decoration: none; }
-  a:hover { color: #111; }
-  a:active { color: #222; font-weight: 800; }
-  a:focus { color: #111; }
+a { color: #DEDBA7; text-decoration: none; }
+  a:hover,
+  a:active,
+  a:focus { color: #D13F31; }
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: normal;
+}
