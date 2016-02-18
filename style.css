@@ -1,0 +1,5 @@
+* { font-family: monospace; }
+a { color: #222; text-decoration: none; }
+  a:hover { color: #111; }
+  a:active { color: #222; font-weight: 800; }
+  a:focus { color: #111; }
