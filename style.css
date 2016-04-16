@@ -4,10 +4,3 @@ a { color: #DEDBA7; text-decoration: none; }
   a:hover,
   a:active,
   a:focus { color: #D13F31; }
-
-h1,
-h2,
-h3 {
-  font-size: inherit;
-  font-weight: normal;
-}
