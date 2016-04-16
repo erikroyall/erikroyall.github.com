@@ -1,3 +1,9 @@
+---
+layout: plain
+title: FSFOAAS
+---
+
+
 # Fucking Simple Fuck Off As A Service (FSFOAAS)
 
 ### What the fuck is this?
