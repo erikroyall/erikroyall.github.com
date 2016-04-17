@@ -20,7 +20,7 @@ GET erik.js.org/fsfoaas/get
 
 ### That's fucking it?
 
-Yes
+It's on the fucking cloud. What more do you want?
 
 ### What do I fucking get
 
