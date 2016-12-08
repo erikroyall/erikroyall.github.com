@@ -1,6 +1,12 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ page.title }} | Erik Royall</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css"/>
+  </head>
+  <body>
+<pre>{% include header.html %}
 
 <h1>./"{{ page.title }}"</h1>
 ------------------
@@ -8,4 +14,8 @@ layout: default
 _Published: {{ post.date | date: "%d %B %Y" }}_
 
 {{ content }}
+</pre>
+  </body>
+</html>
+
 
