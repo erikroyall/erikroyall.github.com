@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chak De India</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar bg-inverse navbar-inverse navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Chak De India</a>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+
+    </ul>
+    <span id="timer" class="navbar-text">
+      Time limit: 10:00
+    </span>
+  </div>
+</nav>
+<div class="main">
+  <div id="theintro">
+    <form>
+      <div class="row">
+        <div class="col-6">
+          <input type="text" class="form-control" id="inputName" aria-describedby="name" placeholder="Enter your name">
+          <small id="name" class="form-text text-muted">Your name is required.</small>
+        </div>
+        <div class="col-6">
+          <button id="startQuiz" type="submit" class="btn btn-primary">Start Quiz</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="error" class="alert alert-danger" role="alert">
+    <strong>Oh snap!</strong> You must select an answer.
+  </div>
+
+  <div class="question" id="thequestion" data-number=0>
+    <form>
+      <fieldset class="form-group">
+        <legend id="tquestion" question=""></legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios0" value="option0">
+            <span id="label0"></span>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+            <span id="label1"></span>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+            <span id="label2"></span>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+            <span id="label3"></span>
+          </label>
+        </div>
+      </fieldset>
+      <button id="next" type="submit" class="btn btn-primary">Next</button>
+    </form>
+  </div>
+
+  <div id="scoreboard" class="card text-center">
+    <div class="card-header">
+      Congratulations
+    </div>
+    <div class="card-block">
+      <h4 class="card-title"></h4>
+      <p class="card-text">Thanks for playing!</p>
+      <a href="#" id="restart" class="btn btn-primary">Restart</a>
+    </div>
+    <div class="card-footer text-muted">
+      Chak De India Quiz
+    </div>
+  </div>
+</div>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min
+.js"></script>
+<script
+    src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+<script
+    src="https://www.gstatic.com/firebasejs/3.6.10/firebase-app.js"></script>
+<script
+    src="https://www.gstatic.com/firebasejs/3.6.10/firebase-database.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
