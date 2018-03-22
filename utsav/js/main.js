@@ -8,7 +8,27 @@ var questionNumber = 0;
 var countdowntimer;
 
 var questions = [{
-  q: "What is (void*)0?",
+  q: "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ? ",
+  a: ['rem = 3.14 % 2.1; ','rem = modf(3.14, 2.1);','rem = fmod(3.14, 2.1);','Remainder cannot be obtain in floating point division.'], c: 2
+}, { q: "Is there any difference between following declarations? \n1:extern int fun(); \n2:int fun();",
+  a: ['Both are identical','No difference, except extern int fun(); is probably in another file','int fun(); is overrided with extern int fun();','None of these'], c:1
+}, {   q: "Which of the following special symbol allowed in a variable name?",
+  a: ['* (asterisk)','| (pipeline)','- (hyphen)','_ (underscore)'], c: 3
+}, {   q: "Which header file should be included to use functions like malloc() and calloc()?",
+  a: ['memory.h','stdlib.h','string.h','dos.h'], c: 1
+}, {   q: "Specify the 2 library functions to dynamically allocate memory?",
+  a: ['malloc() and memalloc()','alloc() and memalloc()','malloc() and calloc()','memalloc() and faralloc()'], c: 2
+}, {   q: "Which of the following function sets first n characters of a string to a given character?",
+  a: ['strinit()','strnset()','strset()','strcset()'], c: 1
+}, {   q: "Which of the following is the correct order of evaluation for the below expression? \nz = x + y * z / 4 % 2 - 1",
+  a: ['* / % + - =','= * / % + -','/ * % - + =','* % / - + ='], c: 0
+}, {   q: "Which of the following are unary operators in C? 1.!  2.sizeof  3.~  4.&&",
+  a: ['1, 2','1, 3 ','2, 4 ','1, 2, 3 '], c: 3
+}, {   q: "WhicÝh bitwise operator is suitable for turning off a particular bit in a number?", 
+  a: ['&& operator','& operator','|| operator','! operator'], c: 1 
+}, {   q: "In a file contains the line   I am a boy\r\n    then on reading this line into the array str using fgets(). What will str contain?",
+  a: ['I am a boy\r\n\0','I am a boy\r\0','I am a boy\n\0','I am a boy'], c: 2
+}, {   q: "What is (void*)0?",
   a: ['Representation of NULL pointer', 'Representation of NULL pointer', 'Error', 'None of above'], c: 0
 }, {
   q: "Can you combine the following two statements into one? char p; p = (char) malloc(100); ",
