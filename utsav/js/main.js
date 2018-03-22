@@ -50,7 +50,7 @@ var questions = [{
   a: ['All of them let you define new values', 'All of them let you define new data types', 'All of them let you define new pointers', ' All of them let you define new structures'], c: 2
 }, {
   q: "The operator used to get value at address stored in a pointer variable is",
-  a: ['', '&', '&&', '||'], c: 1
+  a: ['*', '&', '&&', '||'], c: 1
 }, {
   q: "How would you print \n on the screen?",
   a: ['printf("\\n");', 'echo "\\n"', "printf('\\n')", 'printf("\\n")'], c: 0
