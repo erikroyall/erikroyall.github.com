@@ -5,103 +5,45 @@ var data = {
 
 var questionNumber = 0;
 
+var countdowntimer;
+
 var questions = [{
-  q: "What is the name of India's National Aquatic Animal?",
-  a: ['River Dolphin', 'Crocodile', 'Katla Fish', 'Green Frog'], c: 0
+  q: "What is (void*)0?",
+  a: ['Representation of NULL pointer', 'Representation of NULL pointer', 'Error', 'None of above'], c: 0
 }, {
-  q: "'Kuchipudi' is a dance associated with which state of India?",
-  a: ['Mizoram', 'Nagaland', 'Kerala', 'Andhra Pradesh'], c: 3
+  q: "Can you combine the following two statements into one? char p; p = (char) malloc(100); ",
+  a: ['char p = *malloc(100); ', 'char *p = (char) malloc(100); ', 'char p = (char)malloc(100); ', ' char p = (char *)(malloc)(100);'], c: 2
 }, {
-  q: "Where is Fort William located?",
-  a: ['Chennai', 'Goa', 'Kolkata', 'Mysore'], c: 2
+  q: "Which data type is most suitable for storing a number 65000 in a 32-bit system?",
+  a: ['short ', 'int ', 'long ', 'double  '], c: 0
 }, {
-  q: "Which state is known as India's Spice Garden?",
-  a: ['Kerala', 'Karnataka', 'Bihar', 'Uttaranchal'], c: 0
+  q: "A pointer is",
+  a: ['A keyword used to create variables ', 'A variable that stores address of an instruction', 'A variable that stores address of other variable ', 'All of the above'], c: 2
 }, {
-  q: "What is the largest freshwater lake in India?",
-  a: ['Dal Lake', 'Powai Lake', 'Wular Lake', 'Chilka Lake'], c: 2
+  q: "by default a real number is treated as",
+  a: ['Float', 'Double', 'Long double', 'Depends on the memory model you are using'], c: 1
 }, {
-  q: "What is the annual fair of Rajasthan that is famous for its camel" +
-  " trading event?",
-  a: ['Pushkar Mela', 'Kumbh Mela', 'Sonepur Mela', 'Suraj Kund Mela'], c: 0
+  q: "In  C, static storage class cannot be used with:",
+  a: ['Global variable ', 'Function parameter ', 'Function name ', 'Local variable'], c: 1
 }, {
-  q: "In which century did Portuguese merchants first land in Goa?",
-  a: ['17th Century', '14th Century', '15th Century', '16th Century'], c: 2
+  q: "What is the similarity between a structure, union and enumeration?",
+  a: ['All of them let you define new values', 'All of them let you define new data types', 'All of them let you define new pointers', ' All of them let you define new structures'], c: 2
 }, {
-  q: "Who was the Speaker of the Lok Sabha before he became the President of" +
-  " India?",
-  a: ['R. Venkataraman', 'A. P. J. Abdul Kalam', 'N. Sanjeeva Reddy', 'K. R.' +
-  ' Narayanan'], c: 2
+  q: "The operator used to get value at address stored in a pointer variable is",
+  a: ['', '&', '&&', '||'], c: 0
 }, {
-  q: "Which is the first state to be formed on the basis of language?",
-  a: ['Andhra Pradesh', 'Bombay', 'Madhya Pradesh', 'Meghalaya'], c: 0
+  q: " will you print \n on the screen?",
+  a: ['printf("\n");', 'echo "\\n"', 'printf('\n')', 'printf("\\n")'], c: 0
 }, {
-  q: "Which state or union territory has French as official language?",
-  a: ['Goa', 'Lakshadweep', 'Pondicherry', 'Diu and Daman'], c: 2
+  q: ' Which of the following is not a storage class',
+  a: ['External', 'Automatic', 'Register', 'Define'], c: 3
 }, {
-  q: "The words 'Satyameva Jayate' inscribed below the base plate of the" +
-  " emblem of India are taken from?",
-  a: ['Rigveda', 'Satpath Brahmana', 'Mundak Upanishad', 'Ramayana'], c: 2
-}, {
-  q: "The National Song of India was composed by",
-  a: ['Rabindranath Tagore', 'Bankim Chandra Chatterji', 'Iqbal', 'Jai' +
-  ' Shankar Prasad']
-}, {
-  q: "Who composed the famous song 'Sare Jahan SeAchha'?",
-  a: ['Jaidev', 'Mohammad Iqbal', 'Bankim Chandra Chattopadhyay', 'Rabindranath Tagore'],
-  c: 1
-}, {
-  q: "Which of the following places is famous for Chikankari work, which is" +
-  " a traditional art of embroidery?",
-  a: ['Lucknow', 'Hyderabad', 'Jaipur', 'Mysore'], c: 0
-}, {
-  q: 'What period is considered as the "Golden Age of Indian cinema", during' +
-  ' which time some of the most critically acclaimed Indian films of all time were produced',
-  a: ['1950s to 1970s', '1940s to 1960s', '1930s to 1950s', '1960s to 1980s'],
-  c: 1
-}, {
-  q: "First Indian to win an Oscar award",
-  a: ['Bhanu Athaiya', 'AR Rahman', 'Rasul Pookutty', 'None of the Above'], c: 0
-}, {
-  q: "Film and Television Institute of India is located at",
-  a: ['Mumbai', 'Kolkata', 'Pune', 'Delhi'], c: 2
-}, {
-  q: "How many gold medals have been won by India in the Olympics so far?",
-  a: ['7', '8', '9', '10'], c: 2
-}, {
-  q: "The 'Dronacharya Award' is given to...",
-  a: ['Sportsmen', 'Coaches', 'Umpires', 'None of the Above'], c: 1
-}, {
-  q: "In which Indianstate did the game of Polo originate?",
-  a: ['Meghalaya', 'Rajasthan', 'Manipur', 'West Bengal'], c: 2
-}, {
-  q: "The Indian football team made its first appearance at Olympics in...",
-  a: ['1936', '1948', '1952', '1956'], c: 1
-}, {
-  q: "Which ofthe following state and UTs is also known as 'French Riviera" +
-  " of the East'?",
-  a: ['Daman and Diu', 'Puducherry', 'Goa', 'Kochi'], c: 1
-}, {
-  q: "What is the capital of the state of Tripura?",
-  a: ['Agartala', 'Aizawl', 'Udaipur', 'Imphal'], c: 0
-}, {
-  q: "What is the capiral of Mizoram?",
-  a: ['Agartala', 'Aizawl', 'Udaipur', 'Lunglei'], c: 1
-}, {
-  q: 'Which city is also called as "Tiger Capital of India"?',
-  a: ['Nagpur', 'Ranchi', 'Kolkata', 'Jaipur'], c: 0
-}, {
-  q: "Which city is also called as pink city?",
-  a: ['Nagpur', 'Ranchi', 'Kolkata', 'Jaipur'], c: 3
-}, {
-  q: "Which one of these is a Union territory?",
-  a: ['Jaipur', 'Chandigarh', 'Thiruvanthapuram', 'Raipur'], c: 1
+  q: "What is the result of the expression ( 10/3 )*3+5%3 ?",
+  a: ['10', '11', '8', '1'], c: 1
 }];
 
 // Shuffle and get the first 25 questions
-questions = _.chunk(_.shuffle(questions), 25)[0];
-
-var countdowntimer;
+questions = _.chunk(_.shuffle(questions), 10)[0];
 
 // Initialize Firebase
 var config = {
