@@ -63,7 +63,7 @@ var questions = [{
 }];
 
 // Shuffle and get the first 25 questions
-questions = _.chunk(_.shuffle(questions), 10)[0];
+questions = _.chunk(_.shuffle(questions), 20)[0];
 
 // Initialize Firebase
 var config = {
