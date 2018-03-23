@@ -29,7 +29,7 @@ a: ['y = (int)(x + 0.5)','y = int(x + 0.5) ','y = (int)x + 0.5 ','y = (int)((int
 }, {
 
   q: "A float occupies 4 bytes. If the hexadecimal equivalent of these 4 bytes are A, B, C and D, then when this float is stored in memory in which of the following order do these bytes gets stored?",
-  a: [ 'ABCD','DCBA',"0xABCD','Depends on big endian or little endian architecture'], c: 3
+  a: [ 'ABCD','DCBA','0xABCD','Depends on big endian or little endian architecture'], c: 3
 }, { q: "To print a float value which format specifier can be used?",
     a: [ '%f','%lf','%Lf','None of the above'], c: 0
   }, { q: "The minimum number of times the for loop is executed is",
