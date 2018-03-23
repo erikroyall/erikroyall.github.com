@@ -60,8 +60,8 @@ a: ['A type and size','A type, name, value and size','A name and type','A size a
   a: ['1, 2','1, 3 ','2, 4 ','1, 2, 3 '], c: 3
 }, {   q: "WhicÝh bitwise operator is suitable for turning off a particular bit in a number?", 
   a: ['&& operator','& operator','|| operator','! operator'], c: 1 
-}, {   q: "In a file contains the line   I am a boy\r\n    then on reading this line into the array str using fgets(). What will str contain?",
-  a: ['I am a boy\r\n\0','I am a boy\r\0','I am a boy\n\0','I am a boy'], c: 2
+}, {   q: "In a file contains the line   I am a boy\\r\\n    then on reading this line into the array str using fgets(). What will str contain?",
+  a: ['I am a boy\\r\\n\\0','I am a boy\\r\\0','I am a boy\\n\\0','I am a boy'], c: 2
 }, {   q: "What is (void*)0?",
   a: ['Representation of NULL pointer', 'Representation of NULL pointer', 'Error', 'None of above'], c: 0
 }, {
