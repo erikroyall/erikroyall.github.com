@@ -7,8 +7,42 @@ var questionNumber = 0;
 
 var countdowntimer;
 
-var questions = [{
-  q: "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ? ",
+var questions = [
+  {
+    q: "Which of the following cannot be checked in a switch-case statement?", 
+a: ['Character','Integer','Float','enum'], c: 2 
+
+
+}, {
+
+q: "What will you do to treat the constant 3.14 as a long double?",
+a: ['use 3.14LD','use 3.14L','use 3.14DL','use 3.14LF'], c: 1 
+
+}, {
+q: "Which of the following range is a valid long double (Turbo C in 16 bit DOS OS) ?",
+a: ['3.4E-4932 to 1.1E+4932','3.4E-4932 to 3.4E+4932','1.1E-4932 to 1.1E+4932','1.7E-4932 to 1.7E+4932'], c: 0
+
+}, {
+  
+q: "We want to round off x, a float, to an int value, The correct way to do is",
+a: ['y = (int)(x + 0.5)','y = int(x + 0.5) ','y = (int)x + 0.5 ','y = (int)((int)x + 0.5)'],  c: 0
+}, {
+
+  q: "A float occupies 4 bytes. If the hexadecimal equivalent of these 4 bytes are A, B, C and D, then when this float is stored in memory in which of the following order do these bytes gets stored?",
+  a: [ 'ABCD','DCBA',"0xABCD','Depends on big endian or little endian architecture'], c: 3
+}, { q: "To print a float value which format specifier can be used?",
+    a: [ '%f','%lf','%Lf','None of the above'], c: 0
+  }, { q: "The minimum number of times the for loop is executed is",
+       a: ['0','Cannot be predicted','1','2'], c: 0
+
+  }, { q: "Consider the segment `If(1) printf( yes ); else printf( no );`, what will be the output",
+     a: ['No','Unpredictable','Yes','Error'], c: 2
+
+
+}, { q: "In C every variable has",
+
+a: ['A type and size','A type, name, value and size','A name and type','A size and value'], c: 1
+}, {  q: "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ? ",
   a: ['rem = 3.14 % 2.1; ','rem = modf(3.14, 2.1);','rem = fmod(3.14, 2.1);','Remainder cannot be obtain in floating point division.'], c: 2
 }, { q: "Is there any difference between following declarations? \n1:extern int fun(); \n2:int fun();",
   a: ['Both are identical','No difference, except extern int fun(); is probably in another file','int fun(); is overrided with extern int fun();','None of these'], c:1
